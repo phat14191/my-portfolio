@@ -7,11 +7,7 @@ function About() {
     <div className={classes.gifCell}>
       <img className={classes.gif} src="https://i.imgur.com/FTlPKVt.gif"/>
     </div>
-      <div className={classes.helllThere}>
-      Hello there!
-      </div>
-      <span className={classes.intro}>My name is Phat Nguyen.</span>
-      <p>I'm a Fullstack Web Developer with a passion for creating things, solving problems, and always finding something new to learn.</p>
+      <p className={classes.intro}>Hello! I am Phat Nguyen, a Full Stack Web Developer with a passion for creating things, solving problems, and always finding something new to learn.</p>
     </div>
   )
 }

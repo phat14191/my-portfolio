@@ -27,9 +27,33 @@ body {
   text-align: center;
 }
 
-.mainNav {
-        margin: 0px auto;
-        display: block;
-        text-align: center !important;
-        color: #000 !important;
-    }
+.nav {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  background-color: white;
+  padding: 46px 0px 0px 25px;
+}
+
+.nav a {
+  color: black;
+}
+.nav a:hover {
+  color: #FF1493;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: rgb(220, 220, 220);
+  margin-bottom: 25px;
+  border-radius: 5px;
+  margin: 23px 52px;
+  padding: 18px;
+}
+
+.greeting p:hover {
+  background-color: green;
+  color: yellow;
+}
