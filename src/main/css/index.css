@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+.gif-cell {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.gif {
+  width: 400px;
+  height: auto;
+}
+
+.hello-there {
+  padding-bottom: 1%;
+}
+
+.greeting {
+  color: rgb(89, 89, 89);
+  text-align: center;
+}
+
+.main-nav {
+        margin: 0px auto;
+        display: block;
+        text-align: center !important;
+        color: #000 !important;
+    }
