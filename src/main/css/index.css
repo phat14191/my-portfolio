@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-.gif-cell {
+.gifCell {
   text-align: center;
   padding-top: 5%;
 }
@@ -18,7 +18,7 @@ body {
   height: auto;
 }
 
-.hello-there {
+.helloThere {
   padding-bottom: 1%;
 }
 
@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.main-nav {
+.mainNav {
         margin: 0px auto;
         display: block;
         text-align: center !important;

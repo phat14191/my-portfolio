@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import classes from "../css/index.css"
 
 function Navbar(props) {
   return (
-    <div className="nav main-nav">
+    <div className={classes.mainNav}>
       <Link to = "/">About</Link>
       <Link to = "/contact">Contact</Link>
       <Link to = "/home">Home</Link>
