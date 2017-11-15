@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import About from './views/About';
-import Contact from './views/Contact';
+import Footer from './views/Footer';
 import Home from './views/Home';
 import Portfolio from './views/Portfolio';
 import classes from '../css/index.css'
@@ -15,10 +15,11 @@ class App extends React.Component {
         <Navbar />
         <Switch>
           <Route  exact path="/" component={About}/>
-          <Route path="/contact" component = {Contact}/>
+          {/* <Route path="/contact" component = {Contact}/> */}
           <Route path="/home" component = {Home}/>
           <Route path="/portfolio" component = {Portfolio}/>
         </Switch>
+        <Footer />
       </div>
     )
   }

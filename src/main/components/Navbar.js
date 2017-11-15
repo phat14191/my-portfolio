@@ -5,8 +5,7 @@ import classes from "../css/index.css"
 function Navbar(props) {
   return (
     <div className={classes.nav}>
-      <Link to="/">Home</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/">About</Link>
       <Link to="/home">Home</Link>
       <Link to="/portfolio">Portfolio</Link>
     </div>
