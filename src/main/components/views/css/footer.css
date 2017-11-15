@@ -1,0 +1,59 @@
+.footerContainer {
+    width: 100%;
+    margin: 30px auto auto auto;
+    text-align: center;
+    border-top: 1px solid #DFE2E1;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 50px 0;
+}
+
+.footer {
+
+    background-color: rgb(233, 246, 242);
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%
+}
+
+.footer a:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.footer a img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.footer a:hover img {
+	opacity: .5;
+}
+
+.footer a {
+  padding: 40px 40px 2px 44px;
+}
+/*width: 100%;
+height: auto;
+position: absolute;
+left:0px;
+top:-300px;
+z-index:-1;*/
+/*.picSkills img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left:0px;
+  top:-300px;
+  z-index:-1;
+}*/
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}

@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "../../css/index.css";
+import classes from "./css/skills.css";
 function Skills() {
   return (
-    <div>
+    <div className={classes.container}>
       <div className={classes.picSkills}>
         <div className={classes.picskill}> </div>
       </div>
@@ -23,12 +23,14 @@ function Skills() {
         </div>
         <h2>My Skills</h2>
         <div className={classes.textSkills}>
-          <p>Project goes here</p>
-          <p>Project 1</p>
-          <p>Project 2</p>
-          <p>Project 3</p>
+          <div className={classes.cardStyle}>
+            <p>My Projects</p>
+              <div className={classes.container}>
+                <a><img src="https://camo.githubusercontent.com/b0c9dc0e2f5bcd190403159a24d4a541e496e30a/68747470733a2f2f636f6c69676f2e696f2f696d616765732f657870726573732e737667"/></a>
+              </div>
+            </div>
         </div>
-    </div>
+      </div>
   )
 }
 
