@@ -6,7 +6,7 @@ function Navbar(props) {
   return (
     <div className={classes.nav}>
       <Link to="/">About</Link>
-      <Link to="/home">Home</Link>
+      <Link to="/skills">Skills</Link>
       <Link to="/portfolio">Portfolio</Link>
     </div>
   )
