@@ -21,18 +21,18 @@
   font-family: 'Julius Sans One', sans-serif;
   font-size: -0.8em;
   text-transform: uppercase;
-  display: inline-block;
+  /*display: inline-block;*/
   position: relative;
   margin: 0 0 0 0;
   top: -200px;
   color: #7cacf9
 }
 
-.textSkills img {
+/*.textSkills img {
   font-family: 'Julius Sans One', sans-serif;
   text-transform: uppercase;
   display: flex;
-  position: relative;
+  position: absolute;
   margin: 0 0 0 0;
   top: -100px;
   color: #7cacf9;
@@ -42,13 +42,14 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
-}
+}*/
 
 h2:hover {
     color: yellow;
 }
 
-.picSkills {
+/*pink pic*/
+/*.picSkills {
     position: relative;
     background-attachment: fixed, fixed, fixed, scroll;
     background-image: url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
@@ -59,7 +60,7 @@ h2:hover {
     height: 310px;
     top: -180px;
     z-index: -1;
-}
+}*/
 
 .mySkills {
     bottom: 0px;
@@ -117,4 +118,15 @@ h2:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.desr p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: -0.8em;
+  text-transform: uppercase;
+  /*display: inline-block;*/
+  position: relative;
+  margin: 0 0 0 0;
+  /*top: -200px;*/
+  color: #7cacf9
 }
